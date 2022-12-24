@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0; 
+    padding: 0;
+
+}
+
+header{
+    background-color: #1F2937;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.full_logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 60px; 
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 90px;
+}
+
+.logo2{
+    color: #ffd684;
+    margin: 0%;
+}
+
+.nav1{
+    margin-right: 50px;
+}
+
+
+.bar_image{
+    border-radius: 15%;
+    width: 380px; 
+    height: 250px;
+}
+
+.bar_image:hover{
+    transform-origin: left top;
+  animation: scale 2000ms ease-in-out forwards;
+}
+
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background-color: #3882F6;
+    border: solid 2px #F9FAF8;
+    color: #F9FAF8;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 2px 7px;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    padding-right: 80px;
+    opacity: 0.8;
+}
+
+a:hover {
+    opacity: 1;
+    background-color: #997e48;
+    border-color: #ffcd00;
+    color: #ffffff;
+    transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.8s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: translateY(-4px);
+    box-shadow: 4px 4px 0px rgba(3,4,3,.2);
+}
+
+.ordering{
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 2px 16px;
+    height: 38px;
+    min-width: 96px;
+    min-height: 38px;
+    border: none;
+    color: #fff;
+    background-color: rgb(88, 101, 242);
+    transition: background-color .17s ease,color .17s ease;
+    :hover {
+        background-color: rgb(71, 82, 196);
+    }
+
+}
+
+.ordering:hover {
+    background-color: #1F2937;
+    border-color: #000;
+    color: #ffffff;
+    transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.8s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: translateY(-4px);
+    box-shadow: 4px 4px 0px rgba(3,4,3,.2);
+}
+
+.gallery_title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: extra-bold;
+    color: #1F2937;
+
+}
+
+
+@keyframes scale {
+    to {
+      transform: scale(1.05);
+    }
+  }
+
+.sekcija1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #1F2937;
+    height: 400px;
+}
+
+.text_sekcija1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slogan{
+    color: #F9FAF8;
+    font-weight: extra-bold;
+    font-size: 27px;
+margin-bottom: 0%;
+animation: lights 5s 750ms linear infinite;
+
+}
+
+.description{
+    margin-top: 0%;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+
+}
+
+@keyframes lights {
+    0% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+    30% { 
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    40% { 
+      color: hsl(230, 100%, 95%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    70% {
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    100% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+  }

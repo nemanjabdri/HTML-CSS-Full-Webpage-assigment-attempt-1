@@ -12,3 +12,5 @@ Attributions:
 4. Photo by Federica Gioia: https://www.pexels.com/photo/high-angle-shot-of-a-pizza-11136515/
 
 5. Photo by ROMAN ODINTSOV: https://www.pexels.com/photo/person-takes-a-piece-of-pizza-8266155/
+
+6. Photo by Kevin Bidwell: https://www.pexels.com/photo/photo-of-pizza-1788852/

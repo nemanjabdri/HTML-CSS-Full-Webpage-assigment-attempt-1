@@ -225,6 +225,10 @@ animation: lights 5s 750ms linear infinite;
   }
 
   .sekcija3{
+    background-image: url('Images/bg.jpg');
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,7 +265,7 @@ height: 300px;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    color: #1F2937;
+    color: white;
     margin-bottom: 10px;
 }
 
@@ -269,5 +273,6 @@ height: 300px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-left: 500px;
+    color: white;
  
 }

@@ -242,11 +242,6 @@ height: 300px;
   }
 
 
-  .sekcija4{
-    height: 300px;
-    
-}
-
 #footer{
     display: flex;
     justify-content: center;
@@ -259,6 +254,7 @@ height: 300px;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-weight: lighter;
+    font-size: small;
 }
 
 #quote{
@@ -275,4 +271,126 @@ height: 300px;
     margin-left: 500px;
     color: white;
  
+}
+
+.bg{
+  background-image: url('Images/town.jpg');
+  opacity: 0.9;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 200px;
+}
+
+.sekcija4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  background-color: #3882F6;
+  color:#F9FAF8;
+  border-radius:8px;
+  
+
+  height:130px;
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+.square {
+      border-radius: 8px;
+      background-color: var(--cta);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-block: var(--space-2);
+      padding-inline: var(--space-4);
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 250px;
+
+}
+
+.cta_text{
+  font-family: 'Roboto', sans-serif;
+  margin: 0%;
+  padding: 0%;
+
+  font-weight: bolder;
+
+}
+
+.text{
+  margin: 0%;
+  padding: 0%;
+}
+
+.texts{
+  font-family: 'Roboto', sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+.registration_button{
+
+  font-weight: bolder;
+  color: white;
+  background-color: #3882F6;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8%;
+  border-color: white;
+  font-size: 15px;
+  padding: 7px 26px 7px 26px;
+
+  display: inline-block;
+}
+
+.registration_button:hover {
+  background-color: #1d2e44;
+  border-color: white;
+  color: #ffffff;
+  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.8s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transform: translateY(-4px);
+  box-shadow: 4px 4px 0px rgba(3,4,3,.2);
+}
+
+.bottom_elements{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+
+}
+
+.github_button{
+  font-weight: bolder;
+  color: white;
+  background-color: #1F2937;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8%;
+  border-color: white;
+  font-size: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.github_button:hover {
+  background-color: #1a2a3f;
+  border-color: white;
+  color: #ffffff;
+  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.8s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transform: translateY(-4px);
+  box-shadow: 4px 4px 0px rgba(3,4,3,.2);
 }
